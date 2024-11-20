@@ -1,4 +1,6 @@
 <script setup>
+import ShadowedCard from "../generic/ShadowedCard.vue";
+
 defineProps({
   system: {
     type: Object,
@@ -8,21 +10,16 @@ defineProps({
 </script>
 
 <template>
-  <section class="system-card">
-    <h3 v-text="system.system_name"></h3>
-    <p>{{ system.system_description }}</p>
-  </section>
+  <shadowed-card>
+    <section class="system-card">
+      <h3 v-text="system.system_name"></h3>
+      <p>{{ system.system_description }}</p>
+    </section>
+  </shadowed-card>
 </template>
 
 <style scoped>
-.system-card {
-  padding: 1rem;
 
-  &:hover {
-    background-color: white;
-    border-radius: 10px;
-  }
-}
 </style>
 
 

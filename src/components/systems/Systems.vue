@@ -5,22 +5,34 @@ import SystemCard from "./SystemCard.vue";
 </script>
 
 <template>
-  <primary-template>
-    <h1>System Types</h1>
+  <primary-template>,
+    <template #main>
+      <h1>SYSTEM TYPES</h1>
 
-    <div class="systems">
-      <div v-for="(system, index) in systems.data" :key="index">
-        <system-card :system="system"/>
+      <div class="systems">
+        <div v-for="(system, index) in systems.data" :key="index">
+          <system-card :system="system"/>
+        </div>
       </div>
-    </div>
-
+    </template>
   </primary-template>
 </template>
 
 <style scoped>
+.main h1 {
+  text-align: center;
+  padding: 30px;
+  text-shadow: 1px 1px 1px red;
+  font-size: 25px;
+}
+
 .systems {
+  width: 50%;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  //flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
 }
 </style>
