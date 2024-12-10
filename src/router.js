@@ -2,6 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from "./components/home/Home.vue";
 import About from "./components/about/About.vue";
 import Systems from "./components/systems/Systems.vue";
+import SystemDetails from "./components/systems/SystemDetails.vue";
 import MedicalDevices from "./components/medicalDevices/MedicalDevices.vue";
 
 const router = createRouter({
@@ -22,6 +23,11 @@ const router = createRouter({
             path: '/systems',
             name: 'Systems',
             component: Systems
+        },
+        {
+            path: '/system/:systemId',
+            name: 'SystemDetails',
+            component: SystemDetails
         },
         {
             path: '/medical-devices',

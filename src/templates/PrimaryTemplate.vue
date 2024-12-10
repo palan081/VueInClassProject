@@ -24,13 +24,13 @@
 section.primary-template {
   max-width: 900px;
   margin: 0 auto;
-  border: 10px solid black;
+  //border: 10px solid black;
   font-family: 'Roboto Mono', sans-serif;
   }
 
   nav {
     text-align: right;
-    border: 1px solid black;
+    //border: 1px solid black;
     margin: 1rem;
     font-weight: bold;
 
