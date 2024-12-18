@@ -22,7 +22,7 @@ import SystemCard from "./SystemCard.vue";
 .main h1 {
   text-align: center;
   padding: 30px;
-  text-shadow: 1px 1px 1px red;
+  //text-shadow: 1px 1px 1px red;
   font-size: 25px;
 }
 

@@ -15,7 +15,7 @@ defineProps({
       <h3 v-text="system.system_name"></h3>
       <p>{{ system.system_description }}</p>
       <router-link :to="{ name: 'SystemDetails', params: { systemId: system.id } }">
-        Click to learn more
+        Click to learn more!
       </router-link>
     </section>
   </shadowed-card>

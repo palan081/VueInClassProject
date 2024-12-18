@@ -13,33 +13,37 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
         <div class="systemcard1">
           <h2>NERVOUS SYSTEM</h2>
           <p>includes the brain, spinal cord, and network of nerves</p>
-          <router-link :to="{ name: 'SystemDetails', params: { systemId: '1'}}">Learn more!!</router-link>
+          <router-link :to="{ name: 'SystemDetails', params: { systemId: '1'}}">Click to learn more!</router-link>
         </div>
 
         <div class="systemcard2">
           <h2>MUSCULAR SYSTEM</h2>
           <p>composed of skeletal, smooth, and cardiac muscle</p>
-          <router-link :to="{ name: 'SystemDetails', params: { systemId: '2'}}">Learn more!!</router-link>
+          <router-link :to="{ name: 'SystemDetails', params: { systemId: '2'}}">Click to learn more!</router-link>
         </div>
 
         <div class="systemcard3">
           <h2>CARDIOVASCULAR SYSTEM</h2>
           <p>composed of the heart, blood, and blood vessels (arteries and veins)</p>
+          <router-link :to="{ name: 'SystemDetails', params: { systemId: '3'}}">Click to learn more!</router-link>
         </div>
 
         <div class="systemcard4">
           <h2>SKELETAL SYSTEM</h2>
           <p>composed of bones, cartilage, ligaments, and tendons</p>
+          <router-link :to="{ name: 'SystemDetails', params: { systemId: '4'}}">Click to learn more!</router-link>
         </div>
 
         <div class="systemcard5">
           <h2>RESPIRATORY SYSTEM</h2>
           <p>composed of lungs, airways, diaphragm, voice box, throat, nose and mouth </p>
+          <router-link :to="{ name: 'SystemDetails', params: { systemId: '5'}}">Click to learn more!</router-link>
         </div>
 
         <div class="systemcard6">
           <h2>DIGESTIVE SYSTEM</h2>
           <p>composed of esophagus, stomach, intestines, rectum, and anus </p>
+          <router-link :to="{ name: 'SystemDetails', params: { systemId: '6'}}">Click to learn more!</router-link>
         </div>
 
         <div class="image">
@@ -69,7 +73,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     align-content: center;
     transform: scale(0.9);
     margin: 0 auto;
-    background-color: #5a5a5a;
+    //background-color: #5a5a5a;
     z-index: -10;
     position: relative;
   }

@@ -9,6 +9,7 @@
       <router-link :to="{ name: 'About'}">about</router-link>
       <router-link :to="{ name: 'Systems'}">systems</router-link>
       <router-link :to="{ name: 'MedicalDevices'}">medical devices</router-link>
+      <router-link :to="{ name: 'ContactUs'}">contact us</router-link>
     </nav>
     <section class="main">
       <slot name="main"/>
@@ -24,13 +25,13 @@
 section.primary-template {
   max-width: 900px;
   margin: 0 auto;
-  //border: 10px solid black;
+  border: 10px solid black;
   font-family: 'Roboto Mono', sans-serif;
   }
 
   nav {
     text-align: right;
-    //border: 1px solid black;
+    border: 1px solid black;
     margin: 1rem;
     font-weight: bold;
 

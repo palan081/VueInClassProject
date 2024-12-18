@@ -6,7 +6,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <template>
   <primary-template>
     <template #main>
-      <h1>MEDICAL DEVICES</h1>
+      <h1>Contact Us</h1>
 
     </template>
   </primary-template>
