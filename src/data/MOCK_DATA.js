@@ -3,7 +3,8 @@ const data = [
     "id": "1",
     "system_name": "ENDOCRINE SYSTEM",
     "system_description": "pumps blood from the heart to the lungs to get oxygen",
-    "medical_devices": "sutures"
+    "medical_devices": "sutures",
+    "image": "../../src/assets/endocrine.png"
   },
   {
     "id": "2",

@@ -25,34 +25,46 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   </primary-template>
 </template>
 
-<style scoped>
-.main h1 {
-  text-align: center;
-  padding: 30px;
-  font-size: 25px;
-}
 
-.information p{
-  text-align: center;
-  padding: 30px;
-  line-height: 40px;
-}
+<style scoped>
 
 .border1 {
-  width: 250px;
-  height: 3px;
-  background-color: #CA0000C1;
-  position: relative;
-  right: -36%;
-
+  max-width: 30%;
 }
 
 .border2 {
-  width: 250px;
-  height: 3px;
-  background-color: #CA0000C1;
-  position: relative;
-  right: -36%;
+  max-width: 30%;
 }
 
+@media screen and (width > 500px) {
+  .main h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+  }
+
+  .information p{
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+  }
+
+  .border1 {
+    width: 250px;
+    height: 3px;
+    background-color: #CA0000C1;
+    position: relative;
+    right: -36%;
+
+  }
+
+  .border2 {
+    width: 250px;
+    height: 3px;
+    background-color: #CA0000C1;
+    position: relative;
+    right: -36%;
+  }
+
+}
 </style>
